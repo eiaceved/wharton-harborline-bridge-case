@@ -304,10 +304,6 @@ footer{padding-block:40px 64px;border-top:1px solid var(--line);font-size:14px;c
 .mapnote{font:500 12px var(--mono);color:var(--fg-2);margin:8px 0 0}
 .bar.b3{background:var(--fg-2)}
 /* voice menu */
-.voicebar{display:flex;flex-wrap:wrap;gap:8px 10px;align-items:center;margin-top:22px;padding:12px 14px;background:var(--surface);border:1px solid var(--line);border-radius:var(--r)}
-.voicebar label{font:500 11px var(--mono);letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
-.voicebar select{flex:1 1 220px;min-width:0;max-width:100%;font:500 13px var(--mono);background:var(--surface);color:var(--fg);border:1px solid var(--line);border-radius:6px;padding:6px 6px}
-.vhint{flex-basis:100%;margin:0;font-size:14px;line-height:1.45;color:var(--fg-2)}
 @media (max-width:600px){.given>div:last-child:nth-child(odd){grid-column:1/-1}}
 @media (max-width:420px){
   .scorer li{grid-template-columns:auto minmax(0,1fr)}
@@ -401,12 +397,6 @@ footer{padding-block:40px 64px;border-top:1px solid var(--line);font-size:14px;c
     <a class="btn primary" href="#prompt">Start the case</a>
     <a class="btn" href="#primer">2-minute primer first</a>
     <a class="btn" href="#sizing">Jump to the valuation</a>
-  </div>
-  <div class="voicebar">
-    <label for="voicePick">Read-aloud voice</label>
-    <select id="voicePick"></select>
-    <button class="btn small" type="button" id="voiceTest">Try it</button>
-    <p class="vhint">Sounds robotic? Pick a voice marked "natural." For the most human voices, open this page in Microsoft Edge, which includes free natural voices. On a Mac, you can also download a Premium voice in System Settings › Accessibility › Spoken Content › System voice › Manage Voices.</p>
   </div>
 </header>
 
